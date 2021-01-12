@@ -29,7 +29,7 @@ class team():
         self.driver.find_element(By.XPATH, config.username_xpath).send_keys(config.username1)
         self.driver.find_element(By.XPATH, config.password_xpath).send_keys(config.password)
         self.driver.find_element(By.XPATH, config.accountEnter_xpath).click()
-        sleep(1)
+        sleep(3)
         self.driver.find_element(By.XPATH, config.iconteam_xpath).click()
         sleep(2)
         self.driver.find_element(By.XPATH, config.createTeam_xpath).click()
